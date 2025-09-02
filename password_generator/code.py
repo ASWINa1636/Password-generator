@@ -3,10 +3,10 @@ from getpass import getpass
 import random
 #connect to Mysql 
 db = mysql.connector.connect(
-    host = "127.0.0.1",
+    host = "Enter your IP ADDRESS",
     user = "root",
-    password = "Aswin@1636",
-    database = "password_generator"
+    password = "Enter your password",
+    database = "Enter the database name"
 )
 cursor = db.cursor()
 # global variable is very important for this code  
